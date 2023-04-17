@@ -15,7 +15,7 @@
 }
 
 :root {
-    --bg-color: #fff;
+    --bg-color: #e4e5ff;
     --color-btn: #002D69;
     /* --color-hov: #5f61b3; */
 
@@ -74,20 +74,3 @@ footer {
 
 
 /* ======================custom scroll-bars======================= */
-
-
-::-webkit-scrollbar {
-    width: 10px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px grey;
-    border-radius: 10px;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-    background: linear-gradient(#002D69, #FFF, #002D69, #fff);
-    border-radius: 10px;
-}
