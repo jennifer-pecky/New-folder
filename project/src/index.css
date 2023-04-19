@@ -8,69 +8,33 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    border: 0;
-    outline: 0;
+    /* border: 0; */
     list-style: none;
     text-decoration: none;
-}
-
-:root {
-    --bg-color: #e4e5ff;
-    --color-btn: #002D69;
-    /* --color-hov: #5f61b3; */
-
-    --container-width-lg: 75%;
-    --container-width-md: 86%;
-    --container-width-sm: 70%;
+    outline: none;
 }
 
 html {
     scroll-behavior: smooth;
 }
 
-
-
-
 body {
-    font-family: 'Lato', sans-serif !important;
-    background: var(--bg-color);
+    font-family: 'poppins' !important;
+    background-color: #E4E4FE;
 }
-
-
 
 h1,
 h2 {
-    font-size: 2rem;
+    font-size: 1rem;
     font-weight: 500;
 }
 
 p {
     font-weight: 400;
-    font-size: 1rem;
-    /* color: #fff; */
-    opacity: 85%;
     line-height: 35px;
-}
-
-a {
-    color: unset;
-}
-
-a:hover {
-    color: unset;
 }
 
 ul {
     padding: 0;
     margin: 0;
 }
-
-section,
-footer {
-    padding: 60px 0px;
-}
-
-
-
-
-/* ======================custom scroll-bars======================= */
