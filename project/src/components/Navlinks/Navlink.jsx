@@ -1,11 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-const Home = () => {
+
+const Navlink = () => {
   return (
     <>
       <nav>
         <div className=" p-3 font-bold  flex justify-center">
-          <ul className="flex p-[15px] bg-[#FF6DCD] space-x-3 rounded-[30px] text-[#fff]">
+          <ul className="flex p-[15px]  space-x-3 rounded-[30px] text-[#fff] backdrop-blur-md bg-[#FF6DCD]/60  backdrop-grayscale-0">
             <li>
               <Link to="/aboutme">About</Link>
             </li>
@@ -22,4 +23,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Navlink;

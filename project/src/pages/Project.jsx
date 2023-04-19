@@ -1,12 +1,7 @@
 import React from 'react';
-import Home from '../components/Home/Home';
 
 const Project = () => {
-  return (
-    <div>
-      <Home />
-    </div>
-  );
+  return <div>Project</div>;
 };
 
 export default Project;
