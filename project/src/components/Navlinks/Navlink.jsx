@@ -6,7 +6,7 @@ const Navlink = () => {
     <>
       <nav>
         <div className=" p-3 font-bold  flex justify-center">
-          <ul className="flex p-[15px]  space-x-3 rounded-[30px] text-[#fff] backdrop-blur-md bg-[#FF6DCD]/60  backdrop-grayscale-0">
+          <ul className="flex p-[5px] w-72 justify-center  space-x-6 rounded-[30px] text-[#fff] backdrop-blur-md bg-[#FF6DCD]/60  backdrop-grayscale-0">
             <li>
               <Link to="/aboutme">About</Link>
             </li>
