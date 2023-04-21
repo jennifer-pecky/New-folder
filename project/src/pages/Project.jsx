@@ -59,14 +59,14 @@ const Project = () => {
 
           <div className="space-y-3">
             <h1 className="text-[20px] font-bold text-[#FF6DCD]">
-              Jewelry website
+              portfolio website
             </h1>
-            <p className="text-zinc-900">An E-commerce for jewelries</p>
+            <p className="text-zinc-900">My simple portfolio website</p>
 
             <small className="flex lg:justify-center text-zinc-900">
               {' '}
               <BiLink />
-              <a href="https://github.com/jennifer-pecky/jewelries">
+              <a href="https://maduagwu.netlify.app">
                 {' '}
                 Here is a link to the source code
               </a>{' '}
@@ -75,30 +75,16 @@ const Project = () => {
 
           <div className="space-y-3">
             <h1 className="text-[20px] font-bold text-[#FF6DCD]">
-              Jewelry website
+              Loan website
             </h1>
-            <p className="text-zinc-900">An E-commerces for jewelries</p>
+            <p className="text-zinc-900 text-[15px]">
+              A website where you can register and borrow load
+            </p>
 
             <small className="flex lg:justify-center text-zinc-900">
               {' '}
               <BiLink />
-              <a href="https://github.com/jennifer-pecky/jewelries">
-                {' '}
-                Here is a link to the source code
-              </a>{' '}
-            </small>
-          </div>
-
-          <div className="space-y-3">
-            <h1 className="text-[20px] font-bold text-[#FF6DCD]">
-              Jewelry website
-            </h1>
-            <p className="text-zinc-900">An E-commerce for jewelries</p>
-
-            <small className="flex lg:justify-center text-zinc-900">
-              {' '}
-              <BiLink />
-              <a href="https://github.com/jennifer-pecky/jewelries">
+              <a href="https://www.olhomes.ng">
                 {' '}
                 Here is a link to the source code
               </a>{' '}
