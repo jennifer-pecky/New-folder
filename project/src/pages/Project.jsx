@@ -77,7 +77,7 @@ const Project = () => {
             <h1 className="text-[20px] font-bold text-[#FF6DCD]">
               Jewelry website
             </h1>
-            <p className="text-zinc-900">An E-commerce for jewelries</p>
+            <p className="text-zinc-900">An E-commerces for jewelries</p>
 
             <small className="flex lg:justify-center text-zinc-900">
               {' '}
