@@ -18,7 +18,7 @@ const Aboutme = () => {
             <img
               src={img}
               alt=""
-              className="w-[28%] hidden md:flex rounded-[6rem]"
+              className="w-[28%] hidden md:flex rounded-[3rem]"
             />
           </div>
           <p className="mb-32 w-[100%] text-gray-500 dark:text-gray-400 first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:font-bold first-letter:text-gray-900 dark:first-letter:text-gray-100 first-letter:mr-3 first-letter:float-left">
@@ -42,40 +42,50 @@ const Aboutme = () => {
             Count me in for a challenging day of work, where I transform designs
             into functional websites. I'm capable of delivering this service not
             just to you, but to all clients out there. That said, when I'm not
-            engrossed in work or coding my next project, I relish spending
-            quality time with my husband and two children. Hiking, biking, and
-            soaking up the warm Arizona sun are some of my favorite ways to
-            unwind. By the way, have you taken in some vitamin D today?
+            engrossed in work or coding my next project, I relish spending on
+            netflix or video games, Hiking, biking, and soaking up the warm
+            Arizona sun are some of my favorite ways to unwind. By the way, have
+            you taken in some vitamin D today?
           </p>
         </div>
 
-        <div className="flex text justify-center text-center ">
-          <a
-            href="http://www.linkedin.com/in/jennifer-chioma-maduagwu"
-            target="_blank"
-            id="line"
-          >
-            <img src={image3} alt="" className="w-[80px]" />
-          </a>
-          <a
-            href="https://web.facebook.com/jennifer.chioma.7771/"
-            target="_blank"
-            id="line"
-          >
-            <img src={image} alt="" className="w-[80px]" />
-          </a>
+        <div className="space-y-6">
+          <p className="text-center text-xl bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 text-transparent bg-clip-text">
+            follow me up on any of the scoial media handles below
+          </p>
 
-          <a
-            href="https://twitter.com/pecky_jennifer"
-            target="_blank"
-            id="line"
-          >
-            <img src={image4} alt="" className="w-[80px]" />
-          </a>
+          <div className="flex text justify-center text-center space-x-10">
+            <a
+              href="http://www.linkedin.com/in/jennifer-chioma-maduagwu"
+              target="_blank"
+              id="line"
+            >
+              <img src={image3} alt="" className="w-[80px]" />
+            </a>
+            <a
+              href="https://web.facebook.com/jennifer.chioma.7771/"
+              target="_blank"
+              id="line"
+            >
+              <img src={image} alt="" className="w-[80px]" />
+            </a>
 
-          <a href="https://github.com/jennifer-pecky" target="_blank" id="line">
-            <img src={image2} alt="" className="w-[76px]" />
-          </a>
+            <a
+              href="https://twitter.com/pecky_jennifer"
+              target="_blank"
+              id="line"
+            >
+              <img src={image4} alt="" className="w-[80px]" />
+            </a>
+
+            <a
+              href="https://github.com/jennifer-pecky"
+              target="_blank"
+              id="line"
+            >
+              <img src={image2} alt="" className="w-[76px]" />
+            </a>
+          </div>
         </div>
       </div>
     </div>
