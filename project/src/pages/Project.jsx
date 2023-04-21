@@ -9,8 +9,8 @@ const Project = () => {
         <p>Below are some of my projects i've worked on</p>
       </div>
 
-      <div className=" lg:text-center mt-20">
-        <div className="grid grid-cols-2 sm:grid-cols-3 gap-7  lg:grid-cols-3">
+      <div className=" lg:text-center mt-20 px-14">
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-20  lg:grid-cols-3">
           <div className="space-y-3">
             <h1 className="text-[20px] font-bold text-[#FF6DCD]">
               Jewelry website
@@ -20,9 +20,9 @@ const Project = () => {
             <small className="flex lg:justify-center text-zinc-900">
               {' '}
               <BiLink />
-              <a href="https://github.com/jennifer-pecky/jewelries">
+              <a href="https://jeweriesecommerce.netlify.app/">
                 {' '}
-                Here is a link to the source code
+                Here is a link to the website
               </a>{' '}
             </small>
           </div>
@@ -43,14 +43,14 @@ const Project = () => {
 
           <div className="space-y-3">
             <h1 className="text-[20px] font-bold text-[#FF6DCD]">
-              Jewelry website
+              NFT Website
             </h1>
-            <p className="text-zinc-900">An E-commerce for jewelries</p>
+            <p className="text-zinc-900">A simple NFT website</p>
 
             <small className="flex lg:justify-center text-zinc-900">
               {' '}
               <BiLink />
-              <a href="https://github.com/jennifer-pecky/jewelries">
+              <a href="https://chipper-crepe-2a50d4.netlify.app">
                 {' '}
                 Here is a link to the source code
               </a>{' '}
