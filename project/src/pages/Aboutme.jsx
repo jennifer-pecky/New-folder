@@ -10,8 +10,8 @@ const Aboutme = () => {
     <div>
       <div className="space-y-11">
         <div className="px-20 space-y-12">
-          <div className="flex space-x-48">
-            <h1 className="font-black text-[3.5rem] mt-28">
+          <div className="flex space-x-32">
+            <h1 className="font-black  lg:text-[3.5rem] xl:px-12 text-4xl md:text-5xl  md:leading-normal leading-normal mt-28 flex justify-center max-w-[1048px]">
               {' '}
               Hello I'm <br /> MADUAGWU <br /> JENNIFER CHIOMA.{' '}
             </h1>
@@ -21,7 +21,7 @@ const Aboutme = () => {
               className="w-[28%] hidden md:flex rounded-[3rem]"
             />
           </div>
-          <p className="mb-32 w-[100%] text-gray-500 dark:text-gray-400 first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:font-bold first-letter:text-gray-900 dark:first-letter:text-gray-100 first-letter:mr-3 first-letter:float-left">
+          <p className="mb-32 w-[100%] max-w-[1440px] text-gray-500 dark:text-gray-400 first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:font-bold first-letter:text-gray-900 dark:first-letter:text-gray-100 first-letter:mr-3 first-letter:float-left">
             In my role as a software developer, I prioritize the development{' '}
             <br /> of software solutions that are efficient, <br /> scalable,
             and user-friend The opportunity to work with experts <br /> like
@@ -38,7 +38,7 @@ const Aboutme = () => {
             with others.
           </p>
 
-          <p className="mb-32 w-[100%] text-gray-500 dark:text-gray-400">
+          <p className="mb-32 w-[100%] max-w-[1440px]  text-gray-500 dark:text-gray-400">
             Count me in for a challenging day of work, where I transform designs
             into functional websites. I'm capable of delivering this service not
             just to you, but to all clients out there. That said, when I'm not
