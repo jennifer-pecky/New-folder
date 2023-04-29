@@ -9,7 +9,7 @@ const Aboutme = () => {
   return (
     <div>
       <div className="space-y-11">
-        <div className="px-20 space-y-12">
+        <div className="md:px-20 space-y-12">
           <div className="flex space-x-32">
             <h1 className="font-black  lg:text-[3.5rem] xl:px-12 text-4xl md:text-5xl  md:leading-normal leading-normal mt-28 flex justify-center max-w-[1048px]">
               {' '}
@@ -21,7 +21,7 @@ const Aboutme = () => {
               className="w-[28%] hidden md:flex rounded-[3rem]"
             />
           </div>
-          <p className="mb-32 w-[100%] max-w-[1440px] text-gray-500 dark:text-gray-400 first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:font-bold first-letter:text-gray-900 dark:first-letter:text-gray-100 first-letter:mr-3 first-letter:float-left">
+          <p className="mb-32 w-[100%] max-w-[1440px] text-gray-500 dark:text-gray-400  md:first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:font-bold first-letter:text-gray-900 dark:first-letter:text-gray-100 first-letter:mr-3 first-letter:float-left">
             In my role as a software developer, I prioritize the development of
             software solutions that are efficient, scalable, and user-friend The
             opportunity to work with experts like project managers, designers,
