@@ -46,7 +46,7 @@ const Apicall = () => {
         <p className="text-2xl mb-3 text-center w-[100%] text-gray-500 dark:text-gray-400">
           I believed that providing motivation would be an excellent way to
           benefit everyone. <br /> As a result, this website fetches a new quote
-          from an API every time you refresh or visit it, <br /> delivering a
+          from an API every time you click the "NEW QUOTE" button or visit it, <br /> delivering a
           fresh dose of inspiration. I hope you find it enjoyable!
         </p>
       </div>
