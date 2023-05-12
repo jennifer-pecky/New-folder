@@ -55,7 +55,7 @@ const Aboutme = () => {
 
           <div className="flex text justify-center text-center space-x-10">
             <a
-              href="http://www.linkedin.com/in/jennifer-chioma-maduagwu"
+              href="https://www.linkedin.com/in/jennifer-chioma-maduagwu-7051ab236/"
               target="_blank"
               id="line"
             >
